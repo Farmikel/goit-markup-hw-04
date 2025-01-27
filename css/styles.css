@@ -381,6 +381,9 @@ main {
 .portfolio-info {
   border: 1px solid #E7E9FC;
   border-top: none;
+}
+
+.overlay-container {
   position: relative;
   overflow: hidden;
 }
@@ -453,4 +456,9 @@ main {
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 16px;
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus {
+  background-color: #31d0aa;
 }
